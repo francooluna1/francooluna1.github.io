@@ -195,15 +195,27 @@
         </article>
 
         <h2 class="display-4 text-center my-4" id="contacto">Contacto</h2>
-        <article class="card shadow p-3 mb-5 bg-white rounded">
-            <div class="col-12">
-                <p><i class="fas fa-phone pr-2"></i><a href="tel:+54 381 4405241"
-                      target="blank" class="text-dark">+54 381 4405241</a></p>
-                <p><i class="fas fa-envelope pr-2"></i><a href="Francooluna1@hotmail.com"
-                      target="blank" class="text-dark">Francooluna1@hotmail.com</a></p>
-                <p><i class="fas fa-map-marker-alt pr-2"></i>Barrio Las Quintas 1 Mzn P Lote 7, Tafi Viejo, Tucumán</p>
-            </div>
-        </article>
+                <form class="shadow bg-light rounded p-3 my-4">
+                    <div class="form-group ">
+                        <label>Nombre y apellido</label>
+                        <input type="text" placeholder="Martin Perez" required class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Teléfono</label>
+                        <input type="number" placeholder="3814123456" required class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Correo electrónico</label>
+                        <input type="email" placeholder="martinperez@hotmail.com" required class="form-control"
+                            id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" required></textarea>
+                    </div>
+                    <button class="btn btn-primary"><span>Enviar</span></button>
+                </form>
+
     </section>
 
     <!-- Footer -->
